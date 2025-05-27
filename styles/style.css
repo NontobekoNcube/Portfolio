@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /*background-color: #d4ca41;*/
+}
+
+.main-container {
+  /* this box contains the contents of the body*/
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  width: 1500px;
+}
+
+.navigation {
+  /*this box is a container that contains the navigation bar*/
+  display: flex;
+  background-color: white;
+  border: 3px solid white;
+  padding: 0px;
+  margin-right: 20px;
+  justify-content: end;
+}
+
+li {
+  border: 2px solid black;
+  font-size: large;
+}
+
+.button {
+  font-family: "Irish Grover";
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: inline;
+  /*padding: 1000px;*/
+  margin: 100px;
+  background-color: #d4ca41;
+}
+
+.About.Projects {
+  background-color: #d4ca41;
+}
