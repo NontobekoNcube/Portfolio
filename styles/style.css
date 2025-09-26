@@ -1,51 +1,120 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  /*background-color: #d4ca41;*/
-}
-
-.main-container {
-  /* this box contains the contents of the body*/
-  box-sizing: border-box;
-  margin-top: 10px;
+  margin: 10px;
   margin-bottom: 10px;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border: 1px solid black;
-  width: 1500px;
+  padding-top: 0px;
+  box-sizing: border-box;
+  /*outline: 2px solid rgb(255, 0, 179);*/
 }
 
-.navigation {
-  /*this box is a container that contains the navigation bar*/
-  display: flex;
+body {
   background-color: white;
-  border: 3px solid white;
+  font-family: Helvetica;
+}
+
+.top-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav {
+  /*box-sizing: border-box;*/
+  background-color: white;
   padding: 0px;
-  margin-right: 20px;
-  justify-content: end;
+  outline: 2px solid black;
+  display: inline-block;
+  font-family: Irish Grover, cursive;
+}
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
-li {
-  border: 2px solid black;
-  font-size: large;
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: right;
 }
 
-.button {
-  font-family: "Irish Grover";
-  margin: 0px;
-  padding: 0px;
+div.about-me {
+  /*background-color: #d4ca41;*/
+  background-color: #aa80f3;
+  padding: 5px;
+  margin-bottom: 50px;
 }
 
-.container {
+about-me.p {
+  padding-left: -20px;
+  padding-top: -10px;
   display: inline;
-  /*padding: 1000px;*/
-  margin: 100px;
-  background-color: #d4ca41;
 }
 
-.About.Projects {
-  background-color: #d4ca41;
+img {
+  padding-right: 0px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  margin: 5px;
+  width: 300px;
+}
+
+#projects-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #aa80f3;
+  padding: 5px;
+  outline: 2px solid black;
+  /*max-width: fit-content;
+  min-width: auto;*/
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.projects li,
+.skills li {
+  border: 2px solid black;
+  margin-top: 0px;
+  padding-left: 10px;
+  width: 400px; /*dont stretch further than this*/
+  min-width: 10%; /*dont shrink smaller than this*/
+  height: 200px;
+  background-color: white;
+  font-family: "Irish Grover", cursive;
+  font-weight: 100;
+}
+
+.projects p {
+  background-color: #aa80f3;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-layout {
+  display: flex;
+  align-items: center;
+}
+
+#contact-button {
+  width: 150px;
+  padding: 10px;
+  margin-top: -20px;
+  background-color: white;
+  font-family: "Irish Grover";
+  font-size: 20px;
+}
+.contact-me {
+  background-color: white;
 }
