@@ -1,0 +1,57 @@
+#projects-skills {
+  align-items: center;
+  background-color:whitesmoke;
+  padding: 5px;
+  outline: 2px solid black;
+  /*max-width: fit-content;
+  min-width: auto;*/
+}
+
+.projects {
+  align-items: center;
+  padding: 0px;
+}
+
+.projects li,
+.skills li {
+  border: 2px solid black;
+  margin-top: 0px;
+  padding-left: 10px;
+  width: 400px; /*dont stretch further than this*/
+  min-width: 10%; /*dont shrink smaller than this*/
+  height: 200px;
+  background-color:whitesmoke;
+  font-family: "Irish Grover", cursive;
+  font-weight: 100;
+}
+
+.projects p {
+  background-color: #aa80f3;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-layout {
+  display: flex;
+  align-items: center;
+}
+
+#contact-button {
+  width: 150px;
+  padding: 10px;
+  margin-top: -20px;
+  background-color: white;
+  font-family: "Irish Grover";
+  font-size: 20px;
+}
+.contact-me {
+  background-color: white;
